@@ -1,0 +1,58 @@
+body {
+  margin: 20px 20px;
+}
+#container1 {
+  padding: 0px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+#container1 h1,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+#container1 h1 {
+  margin-top: 15px;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.div1,
+.div2 {
+  padding: 10px 10px;
+  margin-top: 50px;
+}
+.div3 {
+  margin-top: 50px;
+}
+.inline {
+  position: absolute;
+  left: 0px;
+  top: -60px;
+  z-index: 2;
+}
+.inline1 {
+  position: absolute;
+  right: 0px;
+  top: -60px;
+  z-index: 2;
+}
+button {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+button:hover {
+  cursor: pointer;
+  text-shadow: 12px;
+}
+h2 {
+  font-weight: bold;
+}
